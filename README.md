@@ -1,4 +1,4 @@
- HEAD
+
 <h1>  Welcome to the HTML Project that i am still doing </h1>
 
 Still using basic text and still trying to redo my high school html knowledge back
