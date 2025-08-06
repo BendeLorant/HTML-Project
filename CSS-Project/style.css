@@ -1,6 +1,7 @@
 body {
  background-color: whitesmoke; background-image:url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
 font-family: sans-serif;
+padding: 20px
 }
 
 
@@ -15,7 +16,7 @@ h1, h2, h3 {
 
 
 h1 {
-    font-size: 40px
+    font-size: 40px; margin-top: 0px; margin-bottom: 15px
 }
 
 h2 {
@@ -25,6 +26,10 @@ h2 {
 h3 {
     font-size: 30px
 }
+
+hr {
+    height: 2px; background-color: red; border-color: red
+}
 .established {
 
     font-style: italic;
@@ -32,7 +37,16 @@ h3 {
 
 .item p {
 
- display: inline-block
+ display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px; font-size: 18px;
+
+
+}
+
+.bottom-line{
+
+    margin-top: 25px
 }
 
 
@@ -50,4 +64,35 @@ h3 {
 
 .price {
     text-align: right; width:25%;   
+}
+
+img {
+    display: block; margin-left: auto; margin-right: auto; margin-top: -25px
+}
+
+/*FOOTER*/
+
+footer{
+
+    font-size: 14px
+}
+
+a{
+    color: floralwhite  
+}
+
+a:visited{
+    color: black
+}
+
+a:hover {
+    color: brown
+}
+
+a:active {
+    color: brown
+}
+
+.address {
+    margin-bottom: 5px
 }
